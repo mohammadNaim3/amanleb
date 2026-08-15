@@ -1,0 +1,24 @@
+# Core data science
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# Transformer classifier and notebook training
+torch
+transformers
+datasets
+accelerate
+
+# RAG / semantic retrieval
+sentence-transformers
+chromadb
+beautifulsoup4
+requests
+
+# Web application
+streamlit
+
+# Notebook environment
+jupyterlab
