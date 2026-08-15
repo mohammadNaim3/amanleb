@@ -560,28 +560,17 @@ pip install -r requirements.txt
 
 ---
 
-## 15. Model Files
+## Model Files
 
-The Streamlit application expects the fine-tuned Transformer model at:
+The trained AmanLeb Transformer weights are hosted on Hugging Face:
+
+**Hugging Face Model:**  
+https://huggingface.co/mohammadNaim3/AmanLeb
+
+Download the model files and place them at:
 
 ```text
 models/amanleb_final_transformer/
-```
-
-Expected files include:
-
-```text
-config.json
-model.safetensors
-tokenizer.json
-tokenizer_config.json
-```
-
-Because the trained model weights are large, `model.safetensors` may require **Git LFS** or external model hosting instead of a normal GitHub commit.
-
-If the weights are not included directly in the repository, place the exported AmanLeb model directory at the path above before running the application.
-
----
 
 ## 16. Running AmanLeb
 
