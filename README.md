@@ -572,6 +572,12 @@ Download the model files and place them at:
 ```text
 models/amanleb_final_transformer/
 
+Expected files:
+config.json
+model.safetensors
+tokenizer.json
+tokenizer_config.json
+
 ## 16. Running AmanLeb
 
 From the project root:
